@@ -11,7 +11,7 @@ header{
     background-color: #fff3f3;
     background: url(../images/developer.png), url(../images/header_bg.png) , #fff3f3;
     background-repeat: no-repeat;
-    background-position: top left ,bottom right;
+    background-position:23px 28px ,bottom right;
     padding-top: 50px;
 }
 nav{
@@ -186,4 +186,46 @@ nav{
 }
 .resume-container hr{
     margin: 30px 0;
+}
+.rocky{
+    text-align: center;
+}
+footer{
+    margin-top:130px ;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+.footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+.socail{
+    max-width: 562px;
+}
+.footer-container h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-container p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.footer-container .socail .icon a{
+    margin-right: 24px;
+}
+
+.form input[type="text"], .form textarea{
+    width: 461px;
+    padding:18px 31px ;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 10px;
+    color: #757575;
+    font-size: 18px;
 }
