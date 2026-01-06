@@ -53,6 +53,7 @@ nav{
     max-width:827px;
     text-align: center;
     line-height: 30px;
+    margin: 0 auto;
 }
 .section-heading p{
     font-size: 18px;
@@ -116,8 +117,34 @@ nav{
     line-height:30px ;
     color: #757575;
 }
-/* .info-card h4{ */
-    font-size:20px;
-    line-height:30px ;
-
+#skills{
+    padding-top: 130px;
+}
+.slills-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.skills-boc{
+    display: flex;
+    gap: 24px;
+}
+.skills-card{
+    padding: 30px;
+    max-width:267px ;
+    box-shadow: 0 6px 50px 0 #0000004b ;
+}
+.skills-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skills-card h3{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.skills-card p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
 }
